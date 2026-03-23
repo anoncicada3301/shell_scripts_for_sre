@@ -14,7 +14,7 @@ action() {
         
         while kill -0 $pid 2>/dev/null; do
             i=$(( (i+1) % 4 ))
-            printf "[  ${spin:$i:1}ING   ]\b\b\b\b\b\b\b\b\b\b\b"
+            printf "\r%-${width}s[  ${spin:$i:1}ING   ]" "$msg"
             sleep 0.1
         done
         
