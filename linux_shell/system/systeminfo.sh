@@ -357,9 +357,9 @@ _print_options() {
     [1] Print System Version List
     [2] Print CPU Information List
     [3] Print System Memory List
-    [4] Print Hard Memory Info List
-    [5] Print Disk Info List
-    [6] Print All List
+    [4] Print Hard Memory Info List ( Need ROOT )
+    [5] Print Disk Info List ( Need ROOT )
+    [6] Print All List ( Need ROOT )
     [8] Unset Save Path
     [9] back
     [0] exit
