@@ -107,8 +107,7 @@ check_disks() {
 # main
 main() {
     echo -e "\n"
-    check_root
-    if [ $(echo $?) -eq 0 ]; then
+    if check_root; then
         echo -e "\n"
         echo "<=========================Disks check==============================>"
         check_disks

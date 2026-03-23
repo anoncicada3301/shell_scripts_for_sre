@@ -124,8 +124,7 @@ input_port() {
 }
 
 main() {
-    check_root
-    if [ $(echo $?) -eq 0 ]; then
+    if check_root; then
         input_port
     fi
 }
